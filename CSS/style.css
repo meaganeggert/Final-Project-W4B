@@ -10,7 +10,7 @@ html, body {
   }
   
 body{
-    background: black url(/Images/Flour.jpg) no-repeat bottom left;
+    background: black url(./Images/Flour.jpg) no-repeat bottom left;
     background-size: cover;
     background-attachment: fixed;
     /* padding-top: 110px; */
@@ -30,7 +30,7 @@ body{
   margin-bottom: 0px;
   margin: auto;
   overflow: hidden;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("/Images/TEMPHeroCinnamon2.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("./Images/TEMPHeroCinnamon2.jpg");
   background-position: 50% 15%;
   border-radius: 0px;
 }
@@ -82,7 +82,7 @@ body{
   box-shadow: 0 10px 30px 0 orange;
 }
 
-.content {
+main {
   margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
