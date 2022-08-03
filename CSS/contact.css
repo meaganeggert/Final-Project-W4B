@@ -1,0 +1,12 @@
+div {
+    display: inline-block;
+}
+
+div.mapouter {
+  float: left;
+  }
+
+.form {
+  clear: left;
+  float: right;
+  }
