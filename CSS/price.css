@@ -5,7 +5,7 @@ div.PriceHero {
     margin-bottom: 0px;
     margin: auto;
     overflow: hidden;
-    background-image: url("/CSS/PricingHero.jpg");
+    background-image: url("PricingHero.jpg");
     background-position: 0 40%;
     border-radius: 0px;
     background-size: cover;
