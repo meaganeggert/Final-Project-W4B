@@ -99,7 +99,7 @@ div {
   font-size: 14px;
   }
 
-p {
+main p {
   margin-top: 5px;
   background-color: rgba(95, 1, 37, 0.75);
   border-radius: 25px;
@@ -165,6 +165,7 @@ li a {
   color: white;
   text-decoration: none;
   padding: 5px 5px;
+  transition: color 0.6s;
   }
   
 li a:hover {
@@ -178,17 +179,58 @@ li a:hover {
 }
   
 /* Footer Styling */
+div.foot {
+  background-color: rgba(95, 1, 37, 0.3);
+  color: white;
+  display: inline-block;
+  line-height: 30px;
+  font-family: Roboto, sans-serif;
+}
+
 footer {
+  margin-top: 50px;
+  padding: 5px;
+  width: 100%;
+  display: inline-block;
   text-align: center;
   font-size: 14px;
+  font-family: Roboto, sans-serif;
+  letter-spacing: -1px;
   border: none;
-  background: none;
+  background-color: rgb(119, 99, 74, 0.3);
   color: white;
-  line-height: 20px;
+  height: 60px;
 }
 
 footer a {
   text-decoration: none;
-  color: white;
   text-transform: lowercase;
+  color: white;
+  transition: color 0.6s;
 }
+
+footer a:hover {
+  color:rgba(95, 1, 37, .8);
+}
+
+p.left {
+  float: left;
+  margin: 10px;
+  margin-left: 50px;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.left i {
+  margin: 10px;
+  color: rgba(95, 1, 37, .8);
+}
+
+p.right {
+  float: right;
+}
+
+.right i {
+  margin: 10px;
+}
+

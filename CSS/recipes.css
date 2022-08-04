@@ -1,0 +1,26 @@
+div.RecipeHero {
+    width: 97%;
+    height: 400px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: auto;
+    overflow: hidden;
+    background-image: url("/CSS/Test1.jpg");
+    background-position: 20% 70%;
+    border-radius: 0px;
+    background-size: 110%;
+    filter: brightness(80%);
+  }
+
+.subtitle {
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    font-size: 22px;
+    font-style: bold;
+  }
+
+.subsub {
+    text-shadow: 3px 3px 3px black;
+    font-size: 18px;
+}
