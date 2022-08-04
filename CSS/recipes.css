@@ -5,7 +5,7 @@ div.RecipeHero {
     margin-bottom: 0px;
     margin: auto;
     overflow: hidden;
-    background-image: url("Test1.jpg");
+    background-image: url(Test1.jpg);
     background-position: 20% 70%;
     border-radius: 0px;
     background-size: 110%;
