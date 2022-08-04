@@ -21,7 +21,7 @@
     </div>
     <div class="navbar">
       <ul>
-          <li><a href="https://www.instagram.com/wildsalt.bakery/"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+          <li><a href="https://www.instagram.com/wildsalt.bakery/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
           <li><a href="index.html">HOME</a></li>
           <li><a href="pricing.html">PRICING</a></li>
           <li><a href="recipes.html">RECIPES</a></li>
@@ -31,13 +31,69 @@
     </div>
   </nav>
 
-  <div class="mapouter">
-    <div class="gmap_canvas">
-      <iframe width="400px" height="500px" id="gmap_canvas" src="https://maps.google.com/maps?q=2018%2010th%20St%20Sanger,%20CA%2093657&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:400px;}</style><a href="https://www.embedgooglemap.net">embed a google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:600px;}</style></div>
-  </div>
-  <div class="form">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9DMAy98n438DkcOfq8X4D7dR4eNMgLr1hXFgjR9qJWz6zqQ/viewform?embedded=true" width="650" height="818" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" style="width: 650px; clear: both; float: right;">Loading…</iframe>
-  </div>
+  <div class="container">
+    <div class="mapouter">
+      <div class="gmap_canvas">
+        <iframe width="400px" height="500px" id="gmap_canvas" src="https://maps.google.com/maps?q=Sanger,%20CA%2093657&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:left;height:500px;width:400px;}</style><a href="https://www.embedgooglemap.net">embed a google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div>
+    </div>
+
+    <div class="form">
+      <form id="wildsaltform" action="index.html">
+        <table>
+          
+          <tr>
+            <th colspan="2">
+              Contact Us!
+            </th>
+          </tr>
+
+          <tr>
+            <td class="image" colspan="2">
+            </td>
+          </tr>
+          
+          <tr>
+            <td class="customer">
+              First Name
+            </td>
+            <td>
+              <input type="text" name="firstname" id="fname" placeholder="First Name..">
+            </td>
+          </tr>
+          
+          <tr>
+            <td class="customer">
+              Last Name
+            </td>
+            <td>
+              <input type="text" name="lastame" id="lname" placeholder="Last Name..">
+            </td>
+          </tr>
+          
+          </tr>
+          <tr>
+            <td class="tablehead" colspan="2">
+              Questions/Comments
+            </td>
+          </tr>
+          
+          <tr>
+            <td colspan="2">
+              <textarea class="comment" id="project" name="project" placeholder="I need cake!"></textarea>
+            </td>
+          </tr>
+          
+          <tr>
+            <td colspan="2">
+              <input type="submit" value="Submit">
+            </td>
+          </tr>
+        </table>
+        </form>
+    </div>
+
+</div>
+
 
 <footer>
   <div class="foot">
@@ -52,7 +108,8 @@
   <p class="right"><a href="https://github.com/meaganeggert" target="_blank"><i class="fa-brands fa-github fa-2xl "></i></a></p>
   
   <div class="foot">
-    &copy; 2022 @meaganeggert
+    &copy; 2022 
+    Meagan Eggert
   </div>
 </footer>
 

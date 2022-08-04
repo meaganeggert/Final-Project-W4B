@@ -1,12 +1,92 @@
-div {
+div.container {
+    margin-top: 15px;
     display: inline-block;
+    background-color: rgba(95, 1, 37, 0.7);
+    border-radius: 25px;
+    width: 100%;
+    padding: 10px 20px;
 }
 
 div.mapouter {
+  margin-top: 10px;
   float: left;
+  width: 40%;
   }
 
 .form {
-  clear: left;
   float: right;
+  width: 60%;
+  }
+
+  table {
+    text-align: center;
+    font-size: 15pt;
+    font-family: 'Playfair Display';
+    min-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  th {
+    font-size: 18pt;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-weight: normal;
+  }
+  
+  .tablehead {
+    font-size: 18pt;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+  }
+  
+  tr, td {
+    padding: 5px 5px 5px 5px;
+    color: white;
+  }
+
+  .customer {
+    text-align: right;
+  }
+
+  .image {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("CinnamonHeroTest.jpg");
+    background-size: cover;
+    background-position: 70 -120px;
+    height: 100px;
+  }
+  
+  .comment {
+    width: 100%;
+    min-height: 200px;
+    text-align: left;
+    font-family: 'Playfair Display';
+    margin-left: 10px
+  }
+  
+  input[type=text] {
+    width: 70%;
+    padding: 0px 10px;
+    font-family: 'Playfair Display';
+  }
+  
+  input[type=submit] {
+    width: 70%;
+    background-color: rgb(255, 165, 0, 0.5);
+    color: white;
+    padding-bottom: 5px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18pt;
+    font-family: 'Playfair Display';
+  }
+  
+  input[type=submit]:hover {
+    /* background-color: rgba(95, 1, 37, 0.7); */
+    border: 2px solid white;
   }
