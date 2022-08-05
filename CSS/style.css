@@ -119,14 +119,15 @@ main p {
   color: white;
   padding: 15px 30px;
   box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.75);
-  line-height: 1.6;
+  line-height: .9;
 }
 
-.video h1 {
+.video h1, h1 {
   font-family: 'Playfair Display';
   font-weight: normal;
   letter-spacing: .7px;
   font-size: 28px;
+  margin-top: 0;
 }
 
 
